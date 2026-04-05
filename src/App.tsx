@@ -8,6 +8,7 @@ import Post from './components/Children Props/Post';
 import ButtonStyle from './components/typing style props/ButtonStyle';
 import UseStateHook from './components/useStateHook/useStateHook';
 import Events from './components/events/events';
+import UserReducer from './components/useReducer_hook/useReducer_hook';
 
 const user1 = {
   nationality: "Bangladeshi",
@@ -54,6 +55,11 @@ function App() {
         <div style={{ border: '1px solid #ccc', padding: '15px', margin: '10px', borderRadius: '5px' }}>
           <h2>Events</h2>
           <Events />
+        </div>
+
+        <div style={{ border: '1px solid #ccc', padding: '15px', margin: '10px', borderRadius: '5px' }}>
+          <h2>useReducer hook</h2>
+          <UserReducer />
         </div>
 
       </main>
