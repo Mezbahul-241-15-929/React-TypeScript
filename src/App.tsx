@@ -7,6 +7,7 @@ import Button from './components/Children Props/Button';
 import Post from './components/Children Props/Post';
 import ButtonStyle from './components/typing style props/ButtonStyle';
 import UseStateHook from './components/useStateHook/useStateHook';
+import Events from './components/events/events';
 
 const user1 = {
   nationality: "Bangladeshi",
@@ -48,6 +49,11 @@ function App() {
          <div style={{ border: '1px solid #ccc', padding: '15px', margin: '10px', borderRadius: '5px' }}>
           <h2>UseState Hook</h2>
           <UseStateHook />
+        </div>
+
+        <div style={{ border: '1px solid #ccc', padding: '15px', margin: '10px', borderRadius: '5px' }}>
+          <h2>Events</h2>
+          <Events />
         </div>
 
       </main>
